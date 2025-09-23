@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "peripheral",
+					"jsonFile" : "directory-peripheral-Debug-457e2e67ccf6f5fd3e16.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "peripheral",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "central",
+					"jsonFile" : "directory-central-Debug-62d0a611d439a223959d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "central",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "btscanner",
+					"jsonFile" : "directory-btscanner-Debug-4d5ac14b33e7642aedd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "btscanner",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3
+					],
+					"name" : "ble-example",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "peripheral",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "central",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "btscanner::@8e550b1bdaf1562eaf48",
+					"jsonFile" : "target-btscanner-Debug-4a87d9943a781bd78b6c.json",
+					"name" : "btscanner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "central::@f4d862a69c9fb52bdefe",
+					"jsonFile" : "target-central-Debug-4318944937108f5bb798.json",
+					"name" : "central",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "peripheral::@5fada1241af543b87189",
+					"jsonFile" : "target-peripheral-Debug-04360bcd3bc3bc6afc5d.json",
+					"name" : "peripheral",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/server1/workspace/dcu112-virtual/build",
+		"source" : "/home/server1/workspace/dcu112-virtual"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/server1/workspace/dcu112-virtual/build",
+  "command": "/usr/bin/g++ -I/home/server1/workspace/dcu112-virtual/btscanner -g -std=gnu++17 -o peripheral/CMakeFiles/peripheral.dir/main_peripheral.cpp.o -c /home/server1/workspace/dcu112-virtual/peripheral/main_peripheral.cpp",
+  "file": "/home/server1/workspace/dcu112-virtual/peripheral/main_peripheral.cpp",
+  "output": "peripheral/CMakeFiles/peripheral.dir/main_peripheral.cpp.o"
+},
+{
+  "directory": "/home/server1/workspace/dcu112-virtual/build",
+  "command": "/usr/bin/g++ -I/home/server1/workspace/dcu112-virtual/btscanner -g -std=gnu++17 -o peripheral/CMakeFiles/peripheral.dir/gatt_app.cpp.o -c /home/server1/workspace/dcu112-virtual/peripheral/gatt_app.cpp",
+  "file": "/home/server1/workspace/dcu112-virtual/peripheral/gatt_app.cpp",
+  "output": "peripheral/CMakeFiles/peripheral.dir/gatt_app.cpp.o"
+},
+{
+  "directory": "/home/server1/workspace/dcu112-virtual/build",
+  "command": "/usr/bin/g++ -I/home/server1/workspace/dcu112-virtual/btscanner -g -std=gnu++17 -o peripheral/CMakeFiles/peripheral.dir/advertisement.cpp.o -c /home/server1/workspace/dcu112-virtual/peripheral/advertisement.cpp",
+  "file": "/home/server1/workspace/dcu112-virtual/peripheral/advertisement.cpp",
+  "output": "peripheral/CMakeFiles/peripheral.dir/advertisement.cpp.o"
+},
+{
+  "directory": "/home/server1/workspace/dcu112-virtual/build",
+  "command": "/usr/bin/g++ -I/home/server1/workspace/dcu112-virtual/btscanner -g -std=gnu++17 -o central/CMakeFiles/central.dir/main_central.cpp.o -c /home/server1/workspace/dcu112-virtual/central/main_central.cpp",
+  "file": "/home/server1/workspace/dcu112-virtual/central/main_central.cpp",
+  "output": "central/CMakeFiles/central.dir/main_central.cpp.o"
+},
+{
+  "directory": "/home/server1/workspace/dcu112-virtual/build",
+  "command": "/usr/bin/g++ -Dbtscanner_EXPORTS -I/home/server1/workspace/dcu112-virtual/btscanner -g -fPIC -o btscanner/CMakeFiles/btscanner.dir/btscanner.cpp.o -c /home/server1/workspace/dcu112-virtual/btscanner/btscanner.cpp",
+  "file": "/home/server1/workspace/dcu112-virtual/btscanner/btscanner.cpp",
+  "output": "btscanner/CMakeFiles/btscanner.dir/btscanner.cpp.o"
+}
+]

@@ -1,0 +1,6 @@
+add_library(btscanner SHARED btscanner.cpp)
+target_include_directories(btscanner PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(BLUEZ REQUIRED bluez)
+target_link_libraries(btscanner ${BLUEZ_LIBRARIES})
+target_compile_options(btscanner PRIVATE ${BLUEZ_CFLAGS_OTHER})

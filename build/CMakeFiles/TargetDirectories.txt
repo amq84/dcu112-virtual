@@ -1,0 +1,11 @@
+/home/server1/workspace/dcu112-virtual/build/CMakeFiles/edit_cache.dir
+/home/server1/workspace/dcu112-virtual/build/CMakeFiles/rebuild_cache.dir
+/home/server1/workspace/dcu112-virtual/build/peripheral/CMakeFiles/peripheral.dir
+/home/server1/workspace/dcu112-virtual/build/peripheral/CMakeFiles/edit_cache.dir
+/home/server1/workspace/dcu112-virtual/build/peripheral/CMakeFiles/rebuild_cache.dir
+/home/server1/workspace/dcu112-virtual/build/central/CMakeFiles/central.dir
+/home/server1/workspace/dcu112-virtual/build/central/CMakeFiles/edit_cache.dir
+/home/server1/workspace/dcu112-virtual/build/central/CMakeFiles/rebuild_cache.dir
+/home/server1/workspace/dcu112-virtual/build/btscanner/CMakeFiles/btscanner.dir
+/home/server1/workspace/dcu112-virtual/build/btscanner/CMakeFiles/edit_cache.dir
+/home/server1/workspace/dcu112-virtual/build/btscanner/CMakeFiles/rebuild_cache.dir
