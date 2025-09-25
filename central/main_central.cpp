@@ -4,6 +4,10 @@
 #include <chrono>
 #include "btscanner.hpp"
 
+const std::string METHOD_GET { "Get" };
+const std::string INTERFACE_PROPERTIES { "org.freedesktop.DBus.Properties" };
+const std::string INTERFACE_ADAPTER { "org.bluez.Adapter1" };
+const std::string PROPERTY_POWERED { "Powered" };
 
 int main()
 {
@@ -19,16 +23,14 @@ int main()
         return 1;
     } 
 
-    std::string hciPath = "/org/bluez/hci" + std::to_string(devices[0].id);
-
     auto conn = sdbus::createSystemBusConnection();
-    auto adapter = sdbus::createProxy(*conn, "org.bluez", "hciPath");
+    auto adapter = sdbus::createProxy(*conn, "org.bluez", "/org/bluez/hci0");
 
     adapter->callMethod("StartDiscovery").onInterface("org.bluez.Adapter1").dontExpectReply();
     std::cout << "Central: scanning...\n";
     std::this_thread::sleep_for(std::chrono::seconds(5));
 
-    // Replace with your peripheral MAC address
+    /*// Replace with your peripheral MAC address
     std::string devPath = "/org/bluez/hci0/dev_XX_XX_XX_XX_XX_XX";
     auto devProxy = sdbus::createProxy(*conn, "org.bluez", devPath);
     devProxy->callMethod("Connect").onInterface("org.bluez.Device1").dontExpectReply();
@@ -51,5 +53,6 @@ int main()
     for (auto b : value)
         std::cout << std::hex << static_cast<int>(b) << " ";
     std::cout << std::dec << std::endl;
+    */
 
 }

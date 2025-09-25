@@ -1,11 +1,15 @@
 # ninja log v5
 0	1081	1758628144784123985	peripheral/CMakeFiles/peripheral.dir/main_peripheral.cpp.o	bc9c449f4615f4a8
-1	965	1758628463120751560	central/CMakeFiles/central.dir/main_central.cpp.o	6ddc14a5771cb8cc
+1	1045	1758630633328855500	central/CMakeFiles/central.dir/main_central.cpp.o	6199549e7055c37a
 3	1458	1758628145160129967	peripheral/CMakeFiles/peripheral.dir/gatt_app.cpp.o	6a61ae63174fdaee
 3	1515	1758628145220130921	peripheral/CMakeFiles/peripheral.dir/advertisement.cpp.o	9880d24d07d92fc8
 0	169	1758628265589975087	peripheral/peripheral	2e441eb59f9c7db5
-965	1046	1758628463200752633	central/central	2e59fa982b8bf617
-1	1045	1758630633328855500	central/CMakeFiles/central.dir/main_central.cpp.o	6199549e7055c37a
+406	488	1758630661365034204	central/central	b867bb6eefa6b126
 1	338	1758630661217033249	btscanner/CMakeFiles/btscanner.dir/btscanner.cpp.o	273264f2100b774f
 338	406	1758630661285033687	btscanner/libbtscanner.so	c4354e7469a17b3
-406	488	1758630661365034204	central/central	b867bb6eefa6b126
+1	1093	1758807159184938227	central/CMakeFiles/central.dir/main_central.cpp.o	6199549e7055c37a
+1093	1206	1758807159300939409	central/central	b867bb6eefa6b126
+1	938	1758807569289087346	central/CMakeFiles/central.dir/main_central.cpp.o	6199549e7055c37a
+938	1018	1758807569365088111	central/central	b867bb6eefa6b126
+1	953	1758807819059591474	central/CMakeFiles/central.dir/main_central.cpp.o	6199549e7055c37a
+953	1035	1758807819139592275	central/central	b867bb6eefa6b126
